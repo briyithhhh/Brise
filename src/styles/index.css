@@ -1,0 +1,112 @@
+body {
+  background-color: #efdfd5!important;
+}
+
+.navbar {
+  background-color: #fda17c94!important;
+}
+
+.title {
+  text-align: end;
+}
+
+.banner { 
+  max-height: 100vh;
+  height: 100vh;
+  max-width: 100%;
+  background-image: url("../assets/images/banner.jpg");
+  background-size: cover;
+  background-position: 0% bottom;
+  background-repeat: no-repeat;
+}
+
+.wave {
+  width: 100%;
+  position: fixed;
+  z-index: 99999;
+}
+
+.navbar-brand>img {
+  width: 40px; 
+  height: 40px;
+  animation: rotate 1s ease-in-out;
+}
+
+.nav-link {
+  text-align: center;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.nav-link:hover {
+  background-color: #fd9d7785!important;
+}
+
+@media(max-width: 992px) {
+  .nav-link{
+    padding: 20px!important;
+  }
+}
+
+@keyframes rotate{
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.wave{
+    margin: 0;
+}
+
+.carousel-caption h3{
+    color: black;
+
+}
+
+.carousel-inner{
+  margin-top: 100px;
+}
+
+.triangle {
+  position: relative;
+  background: #ffd79b;
+  height: 30vh;
+  margin-top: 100px;
+}
+
+.triangle h2{
+  text-align: center;
+  
+}
+
+.triangle::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 91px 91px 0 91px;
+  border-color: #ffd79b transparent transparent transparent;
+  left: 50%;
+  transform: translateX(-50%) translateY(100%);
+}
+
+.hola{
+  margin-top: 100px;
+  display: flex;
+  justify-content: center
+}
+
+.hola .card{
+  margin-right:100px;
+  margin-left: 100px!important;
+}
+
+.carousel{
+  width: 1000px!important;
+}
+
