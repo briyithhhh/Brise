@@ -1,56 +1,46 @@
 body {
   background-color: #efdfd5!important;
+  overflow-x: hidden ;
 }
 
 .navbar {
   background-color: #fda17c94!important;
 }
 
-/* @font-face {
-  font-family: 'Roboto', sans-serif;
-  src: url("../assets/fonts/Lobster-Regular.ttf");
-} */
-
 .title {
   text-align: left!important;
   margin-left: 20px;
-  padding-top: -10px!important;
+  margin-right: 0%;
+  padding-top: -20px!important;
   font-family:'Roboto', sans-serif;
-  src: url("../assets/fonts/fuente.otf");
 }
 
 .banner { 
   max-height: 100vh;
   height: 100vh;
   max-width: 100%;
-  background-image: url("../assets/images/banner.jpg");
+  background-image: url("images/banner.jpg");
   background-size: cover;
   background-position: 0% bottom;
   background-repeat: no-repeat;
-
 }
-/* 
-.widget{
-  width: -1000px;
-  justify-content: right!important;
-
-}
- */
 
 #widget-carousel {
   margin: 100px 0 0 0!important;
 }
 
-
 .banner .title{
   text-align: center;
-  margin-top: 100px!important;
+  margin-top: 70px!important;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
 }
 
 .wave {
   width: 100%;
   position: fixed;
   z-index: 99999;
+  display: flex;
 }
 
 .glow {
@@ -115,10 +105,6 @@ body {
   border-radius: 25px 0 25px 0;
 }
 
-/* .card{
-  margin: 0 0 10px 0!important;
-} */
-
 .carousel-caption h2{
     color: black;
 
@@ -128,38 +114,11 @@ body {
   color: black;
 }
 
-/* .carousel-inner{
-  margin-top: 100px;
-} */
-
-/* .triangle {
-  position: relative;
-  background: #ffd79b;
-  height: 30vh;
-  margin-top: 100px;
-} */
-
-/* .triangle h2{
-  text-align: center;
-  
-} */
-/* 
-.triangle::before {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 91px 91px 0 91px;
-  border-color: #ffd79b transparent transparent transparent;
-  left: 50%;
-  transform: translateX(-50%) translateY(100%);
-} */
-
+.w-50 {
+  width: 20%!important;
+  margin-left: 180px;
+}
 .hola {
-  /* margin-top: 100px; */
-  /* margin-left: 100px!important; */
   padding: 80px;
   background-color: rgb(255, 250, 238);
 
@@ -178,27 +137,19 @@ body {
   width: 700px!important;
   margin-left: 340px; 
 }
-
-
-
 .card-body {
   background-color: #fff4f4!important;
 }
 
 .background{
-  background-image: url("../assets/images/40.jpg");
+  background-image: url("images/40.jpg");
   padding-top: 90px;
   padding-bottom: 90px;
-  /* margin-top: 100px; */
+
 }
-
-/* .carousel-item{
-} */
-
 footer{
   padding-top: 10px;
   background-color: #fdb09194;
-  /* margin-top: 100px; */
 }
 
 .abajo{
